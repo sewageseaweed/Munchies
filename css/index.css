@@ -1,0 +1,12 @@
+.allpage{
+  background-color: #800020;
+}
+
+.forms{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  color: white;
+}
