@@ -10,3 +10,36 @@
 body{
   color: white;
 }
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto 150px 1fr;
+  grid-template-areas:
+    ". tt ."
+    ". ll ."
+    ". frmW ."
+    ". he .";
+}
+
+
+.forms{
+  display: flex;
+  grid-area: frmW;
+  border-style: dotted;
+  border-radius: 50%;
+  height: 500px;
+  text-align: center;
+}
+
+.help {
+  grid-area: he;
+}
+
+.title{
+  grid-area: tt;
+}
+
+.lol{
+  grid-area: ll;
+}
